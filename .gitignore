@@ -1,3 +1,24 @@
+data
+.ipynb_checkpoints
+*.h5
+models
+*.swp
+*.p
+
+traffic-test*
+Normalization_practice.ipynb
+traffic-signs-data.zip
+
+
+# Temporary project files - from MNIST
+MNIST_data/
+checkpoint
+traffic-sign.data*
+traffic-sign.index
+traffic-sign.meta*
+*.sw*
+
+Untitled.ipynb
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -87,3 +108,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
