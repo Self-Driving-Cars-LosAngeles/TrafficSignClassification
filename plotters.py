@@ -89,6 +89,3 @@ def plot_rand_original_grayscale_normalized(n_row, n_col,name,  original, graysc
     plt.imshow(grayscaled, cmap="gray")
     
 plt.show()
-
-
-

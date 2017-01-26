@@ -4,7 +4,7 @@ data
 models
 *.swp
 *.p
-
+new_signs*
 traffic-test*
 Normalization_practice.ipynb
 traffic-signs-data.zip
