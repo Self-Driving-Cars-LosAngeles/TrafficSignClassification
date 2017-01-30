@@ -89,12 +89,12 @@ def transform_image(img, ang_range, shear_range, trans_range):
     
     # Shearing:
     
-    pts1 = np.float32([[5, 5],[20, 5],[5, 20]])
+    pts1 = np.float32([[8, 8],[16, 8],[8, 16]])
     
-    pt1 = 5 + shear_range * np.random.uniform() - shear_range / 2
-    pt2 = 20 + shear_range * np.random.uniform() - shear_range / 2
+    pt1 = 8 + shear_range * np.random.uniform() - shear_range / 2
+    pt2 = 16 + shear_range * np.random.uniform() - shear_range / 2
     
-    pts2 = np.float32([[pt1, 5],[pt2, pt1],[5, pt2]])
+    pts2 = np.float32([[pt1, 8],[pt2, pt1],[8, pt2]])
     
     Shear_M = cv2.getAffineTransform(pts1, pts2)
     
